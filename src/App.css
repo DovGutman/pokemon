@@ -1,0 +1,28 @@
+.App {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon-list {
+  height: 90vh;
+  width: 28vh;
+  margin-top: 0vh;
+  margin-left: 2vh;
+  overflow: auto;
+}
+
+.screen {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 2vh;
+  height: -webkit-fill-available;
+  align-self: center;
+}
+
+.pokemon-card {
+  margin-left: 50vh;
+  height: 95vh;
+  width: 700px;
+  display: flex;
+}

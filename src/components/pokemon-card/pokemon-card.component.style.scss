@@ -1,0 +1,19 @@
+.pokemon-card-content {
+  display: flex;
+  // width: 50vh;
+}
+
+.pokemon-lable {
+  width: 18vh;
+}
+
+.pokemon-value-lable {
+  width: 15vh;
+}
+
+.pokemon-moves {
+  width: 70vh;
+  height: 40px;
+  white-space: nowrap;
+  overflow: auto;
+}
